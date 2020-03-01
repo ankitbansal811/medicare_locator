@@ -61,7 +61,7 @@ actions:
 - utter_ask_whatismyname
 - utter_ask_languagesbot
 
-templates:
+responses:
   utter_greet:
   - text: "Hi. What are you looking for?"
   - text: "Hey there! Please choose one of the healthcare facility options:"
