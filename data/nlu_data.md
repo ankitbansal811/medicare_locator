@@ -181,31 +181,31 @@
 - find me a nearby [home health agency](facility_type) in [Reno](location)
 - hi i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - hi i am in [San Diego](location) i need a [hospital](facility_type:rbry-mqwu)
-- hi i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- hi i am in [Nashville](location) i need a [home health agency](facility_type:9wzi-peqs)
 - hi i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - hi i am in [Springfield](location) i need a [hospital](facility_type:rbry-mqwu)
-- hi i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- hi i am in [Atlanta](location) i need a [home health agency](facility_type:9wzi-peqs)
 - hi i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - hi i am in [Santa Cruz](location) i need a [hospital](facility_type:rbry-mqwu)
-- hi i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- hi i am in [Boston](location) i need a [home health agency](facility_type:9wzi-peqs)
 - hello i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - hello i am in [San Diego](location) i need a [hospital](facility_type:rbry-mqwu)
-- hello i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- hello i am in [Nashville](location) i need a [home health agency](facility_type:9wzi-peqs)
 - hello i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - hello i am in [Springfield](location) i need a [hospital](facility_type:rbry-mqwu)
-- hello i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- hello i am in [Atlanta](location) i need a [home health agency](facility_type:9wzi-peqs)
 - hello i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - hello i am in [Santa Cruz](location) i need a [hospital](facility_type:rbry-mqwu)
-- hello i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- hello i am in [Boston](location) i need a [home health agency](facility_type:9wzi-peqs)
 - Good morning i am in [Tampa](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - Good morning i am in [San Diego](location) i need a [hospital](facility_type:rbry-mqwu)
-- Good morning i am in [Nashville](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- Good morning i am in [Nashville](location) i need a [home health agency](facility_type:9wzi-peqs)
 - Good morning i am in [Sacramento](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - Good morning i am in [Springfield](location) i need a [hospital](facility_type:rbry-mqwu)
-- Good morning i am in [Atlanta](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- Good morning i am in [Atlanta](location) i need a [home health agency](facility_type:9wzi-peqs)
 - Good morning i am in [Chicago](location) i need a [nursing  home](facility_type:b27b-2uc7)
 - Good morning i am in [Santa Cruz](location) i need a [hospital](facility_type:rbry-mqwu)
-- Good morning i am in [Boston](location) i need a [home health agenc](facility_type:9wzi-peqs)
+- Good morning i am in [Boston](location) i need a [home health agency](facility_type:9wzi-peqs)
 - Hello again i need a [nursing home](facility_type) in [Katy](location)
 - Hello again i need a [hospital](facility_type) in [Waco](location)
 - Hello again i need a [home health agency](facility_type) in [Clarksville](location)
@@ -232,7 +232,7 @@
 - cool thank you
 
 
-##intent:ask_howdoing
+## intent:ask_howdoing
 - Ahoy matey how are you?
 - are you alright
 - are you having a good day
@@ -319,7 +319,7 @@
 - come stai?
 - How you doing?
 
-##intent:ask_weather
+## intent:ask_weather
 - How is the weather today?
 - What's the weather like?
 - How is the weather?
@@ -394,7 +394,7 @@
 - hows the weather today in berlin?
 - what's the weather like
 
-##intent:ask_builder
+## intent:ask_builder
 - can you share your boss with me?
 - i want to get to know your owner
 - i want to know the company which designed you
@@ -517,7 +517,7 @@
 - Who were you built by?
 - who is your creator
 
-##intent:ask_restaurant
+## intent:ask_restaurant
 - restaurants
 - can i be shown a gluten free restaurant
 - i want a french restaurant
@@ -573,7 +573,7 @@
 - Will you find me a restaurant?
 - will you see any restaurant for me?
 
-##intent:handleinsult
+## intent:handleinsult
 - you're a loser lmao
 - you are a stupid bot
 - i hate you
@@ -652,7 +652,7 @@
 - fucking work
 - ok shut up
 
-##intent:telljoke
+## intent:telljoke
 - tell me a joke
 - Say something funny.
 - Give me a joke.
@@ -696,7 +696,7 @@
 - give me a good joke
 - you can say a jok
 
-##intent:ask_wherefrom
+## intent:ask_wherefrom
 - where do you live?
 - where do you live
 - where are you from?
@@ -747,7 +747,7 @@
 - Are you from around here?
 - You live around here?
 
-##intent:ask_time
+## intent:ask_time
 - what is the current time?
 - what is the time in Sydney?
 - whats the time now
@@ -804,7 +804,7 @@
 - tell me the time it is.
 - what time is it?
 
-##intent:ask_howold
+## intent:ask_howold
 - whats your age?
 - how old?
 - what's your age?
@@ -858,7 +858,7 @@
 - How old are you?
 - how old are u
 
-##intent:ask_whoami
+## intent:ask_whoami
 - Who am I?
 - Okay who am I?
 - WHo am I
@@ -886,7 +886,7 @@
 - can you tell me who I am?
 - who am i
 
-##intent:ask_languagesbot
+## intent:ask_languagesbot
 - What languages can you use?
 - Which languages do you speak?
 - What are the languages you can speak?
@@ -941,7 +941,7 @@
 - do you speak german?
 - Do you speak german?
 
-##intent:ask_whatismyname
+## intent:ask_whatismyname
 - what is my name?
 - May i know my name?
 - What is my name?
