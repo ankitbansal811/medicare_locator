@@ -4,15 +4,15 @@ from __future__ import division
 from __future__ import print_function
 from __future__ import unicode_literals
 
-from rasa_core_sdk import Tracker
-from rasa_core_sdk.executor import CollectingDispatcher
+from rasa_sdk import Tracker
+from rasa_sdk.executor import CollectingDispatcher
 
 from typing import Dict, Text, Any, List
 
 import requests
-from rasa_core_sdk import Action
-from rasa_core_sdk.events import SlotSet, FollowupAction
-from rasa_core_sdk.forms import FormAction
+from rasa_sdk import Action
+from rasa_sdk.events import SlotSet, FollowupAction
+from rasa_sdk.forms import FormAction
 
 # We use the medicare.gov database to find information about 3 different
 # healthcare facility types, given a city name, zip code or facility ID
@@ -87,7 +87,7 @@ def _find_facilities(location: Text, resource: Text) -> List[Dict]:
 
 
 def _resolve_name(facility_types, resource) ->Text:
-    for key, value in facility_types.items():
+    for _, value in facility_types.items():
         if value.get("resource") == resource:
             return value.get("name")
     return ""
